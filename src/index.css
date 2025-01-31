@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20240719/pngtree-neon-wonderland-gaming-setup-room-4k-computer-wallpaper-image_16018603.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .games {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .game-container {
+      width: 100%;
+    }
+  }
+  
+  
